@@ -5,15 +5,13 @@ import com.google.common.base.Joiner;
 import java.util.List;
 
 class HelloOtus {
-    static void joinFunc(String[] data) {
-        System.out.println(Joiner.on(", ").skipNulls().join(data));
-//        for (String i : data) {
-//            System.out.println(i);
-//        }
+    static String joinFunc(String[] data) {
+        return Joiner.on(", ").skipNulls().join(data);
     }
 
-    static void joinFunc(List<String> data) {
-        System.out.println(Joiner.on(", ").skipNulls().join(data));
+    static String joinFunc(List<String> data) {
+        return Joiner.on(", ").skipNulls().join(data);
     }
+
 
 }

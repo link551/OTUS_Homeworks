@@ -11,9 +11,9 @@ class Main {
         //data2.add("5");
         //data2.add("6");
         List<String> data2 = Arrays.asList("5", "6", "7");
-        HelloOtus.joinFunc(data1);
-        HelloOtus.joinFunc(data2);
-        //System.out.println(123);
+        String test1 = HelloOtus.joinFunc(data1);
+        String test2 = HelloOtus.joinFunc(data2);
+        System.out.println(test1);
+        System.out.println(test2);
     }
 }
-
